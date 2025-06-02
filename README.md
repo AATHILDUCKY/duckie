@@ -7,6 +7,39 @@ The Quacktastic Hacker's Companion - A CLI tool to help you remember and organiz
 
 ![TinyDuckieBot Demo](demo.gif) *Example usage*
 
+```
+└─$ duckie    
+
+   _____          _  __     __          _             _____       _ _    
+  |_   _|        | | \ \   / /         | |           |  __ \     | | |   
+    | | _ __  ___| | _\ \_/ /__  _   _| | _____ _ __| |  | | ___| | | __
+    | || '_ \/ __| |/ /\   / _ \| | | | |/ / _ \ '__| |  | |/ _ \ | |/ /
+   _| || | | \__ \   <  | | (_) | |_| |   <  __/ |  | |__| |  __/ |   < 
+   \___/_| |_|___/_|\_\ |_|\___/ \__,_|_|\_\___|_|  |_____/ \___|_|_|\_\
+                                                                         
+        
+                    🦆 The Quacktastic Hacker's Companion 🦆
+                         Type /help for commands
+
+Initializing quackware...
+
+Hacker Command Assistant ready! (Type /exit to quit)
+
+🦆> nmap privilege es
+
+Searching duckie database for 'nmap privilege es'...
+
+🦆 Best Duckie Match (92% confidence):
+ID: 23
+Scenario: privilege escalation with nmap
+Command: 
+    nmap --interactive \n nmap>!sh
+Details: privilege escalation with nmap, i want to use nmap sudo file for pri
+
+```
+
+
+
 ## Features ✨
 
 - **Fuzzy Command Search**: Find commands even with partial or mistyped queries
